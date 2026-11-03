@@ -12,36 +12,27 @@ To sketch the given drawing with dimensions using fusion 360 tool.
   4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
   
 ## PROCEDURE
+1. Create a New Sketch: Open Autodesk Fusion 360, select the XY plane, click on Create Sketch, and start drawing the front profile of the component using Circle, Line, Arc, and Spline tools.
 
-1.	Open new file and then select sketch icon.
-2.	Select the plane for sketching. 
-3.	Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch
+2. Draw the Main Circles: Select the Circle tool and create the upper circular portion with a diameter of 20 mm, followed by the three lower circular portions at their respective positions according to the engineering drawing.
 
-![image](https://user-images.githubusercontent.com/113594316/198206497-ca83d495-119b-45cd-b43d-8ca3ea7e9544.png)
+3. Apply Dimensions: Use the Sketch Dimension (D) tool to specify the required dimensions, including 115 mm vertical distance and 94 mm horizontal distance between the circular centres, ensuring accurate positioning.
 
-4.	Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
+4. Create Circular Holes: Draw the required circular holes using the Circle tool and apply the specified diameters of 10 mm and 14 mm, positioning them accurately according to the given front view.
 
-![image](https://user-images.githubusercontent.com/113594316/198206562-68463016-3f32-4a87-aa5b-7a17dd023b31.png)
+5. Draw the Outer Profile: Use the Line, Arc, and Spline tools to connect the circular portions smoothly, forming the required outer boundary while maintaining the overall shape shown in the engineering drawing.
 
-5.	Use inspect feature to measure the dimensions of sketch.
+6. Apply Radius: Select the Sketch Fillet tool and apply the specified radii of R20 mm and R10 mm at the required curved portions to create smooth transitions between the connected profiles.
 
-![image](https://user-images.githubusercontent.com/113594316/198206621-6348e8a3-4bbd-4a1f-96d3-db16fbf933d9.png)
+7. Trim Unwanted Lines: Select the Trim tool (T) and carefully remove unnecessary overlapping lines, extra circular portions, and unwanted sketch segments to obtain a clean and properly connected profile.
 
-6.	After finishing the sketch use finish sketch option to finalize the sketch.
+8. Create the Inner Cutout: Use the Arc and Circle tools to draw the flower-shaped inner profile at the centre, apply the required curves, and use the Trim tool to remove unwanted portions.
 
-![image](https://user-images.githubusercontent.com/113594316/198206639-31c4bdb5-b13e-4106-bcf5-125c294aa03e.png)
+9. Extrude the Component: Finish the sketch, select the required closed profile, choose the Extrude command (E), and provide the required thickness of 40 mm to convert the two-dimensional sketch into a three-dimensional model.
 
-7.	After finishing the sketch switch to drawing mode to plot the sketch in ISO standard.
-
-![image](https://user-images.githubusercontent.com/113594316/198206697-2e3ead2b-7d1e-436e-bc36-aa2e73c1e78e.png)
-
-![image](https://user-images.githubusercontent.com/113594316/198206721-8ad45462-2675-4be2-964f-621c8fc4490e.png)
-
-
-## SKETCHS
-![image](https://user-images.githubusercontent.com/113594316/198208087-87ed794e-5f1c-4583-82e0-f29699dfc305.png)
-
+10. Final Inspection and Save: Check the completed 3D model using the Isometric view, verify the dimensions, diameter, radius, holes, and curved surfaces according to the engineering drawing, and save the final design.
 ## OUTPUT
+<img width="1010" height="722" alt="Screenshot 2026-11-03 193033" src="https://github.com/user-attachments/assets/854648f0-0786-4bcf-8cf7-7bc86a1306ee" />
 
 
 ## RESULT
